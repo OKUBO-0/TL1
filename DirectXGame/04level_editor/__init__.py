@@ -32,6 +32,8 @@ from .file_name import OBJECT_PT_file_name
 from .add_collider import MYADDON_OT_add_collider
 from .collider import OBJECT_PT_collider
 from .draw_collider import DrawCollider
+from .add_disabled import MYADDON_OT_add_disabled
+from .disabled import OBJECT_PT_disabled
 
 #Blenderに登録するクラスリスト
 classes = (
@@ -43,6 +45,8 @@ classes = (
     OBJECT_PT_file_name,
     MYADDON_OT_add_collider,
     OBJECT_PT_collider,
+    MYADDON_OT_add_disabled,
+    OBJECT_PT_disabled,
 )
 
 #アドオン有効化時コールバック

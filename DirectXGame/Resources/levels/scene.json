@@ -21,7 +21,8 @@
                     1.0
                 ]
             },
-            "file_name": "cube"
+            "file_name": "cube",
+            "disabled": true
         },
         {
             "type": "LIGHT",
@@ -70,7 +71,7 @@
             "name": "ICO球",
             "transform": {
                 "translation": [
-                    -5.603634357452393,
+                    3.1744956970214844,
                     0.0,
                     0.0
                 ],
@@ -92,53 +93,9 @@
             "name": "ICO球.001",
             "transform": {
                 "translation": [
-                    4.846914768218994,
+                    -3.3738012313842773,
                     0.0,
                     0.0
-                ],
-                "rotation": [
-                    0.0,
-                    -0.0,
-                    0.0
-                ],
-                "scaling": [
-                    1.0,
-                    1.0,
-                    1.0
-                ]
-            },
-            "file_name": "cube"
-        },
-        {
-            "type": "MESH",
-            "name": "ICO球.002",
-            "transform": {
-                "translation": [
-                    0.0,
-                    0.0,
-                    -4.0337347984313965
-                ],
-                "rotation": [
-                    0.0,
-                    -0.0,
-                    0.0
-                ],
-                "scaling": [
-                    1.0,
-                    1.0,
-                    1.0
-                ]
-            },
-            "file_name": "cube"
-        },
-        {
-            "type": "MESH",
-            "name": "ICO球.003",
-            "transform": {
-                "translation": [
-                    5.8305864334106445,
-                    0.0,
-                    3.1612236499786377
                 ],
                 "rotation": [
                     0.0,

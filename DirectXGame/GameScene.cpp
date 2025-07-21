@@ -79,6 +79,15 @@ void GameScene::Initialize() {
 		// オブジェクト 1つ分の妥当性のチェック
 		assert(object.contains("type"));
 
+		if (object.contains("disabled")) {
+			// 有効無効フラグ
+			bool disabled = object["disabled"].get<bool>();
+			if (disabled) {
+				// 配置しない (スキップ)
+				continue;
+			}
+		}
+
 		if (object["type"].get<std::string>() == "MESH") {
 			// 1個分の要素の準備
 			levelData->objects.emplace_back(ObjectData{});
